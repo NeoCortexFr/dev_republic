@@ -1,0 +1,22 @@
+.navLink {
+    height: 50px;
+    background-color: black;
+
+    &_ul {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 8px;
+        
+        &-li {
+            height: 35px;
+            width: 100%;
+            background-color: black;
+            color: white;
+            padding-top: 8px;
+            border: white 1px solid;
+            border-radius: 10px;
+            margin: 2px;
+            box-shadow: inset 0 0 1rem blue;
+        }
+    }
+}
