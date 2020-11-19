@@ -3,8 +3,22 @@
     border-left: black solid 2px;
     border-right: black solid 2px;
     height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     
-    &_title {
+    
+    &_p {
+        width: 45%;
+        border: solid 1px blue;
+        margin: 20px;
+        padding: 20px;
+        background-color: black;
+        color: white;
 
+    &-h {
+      font-family: 'Goldman', cursive;
+      font-size: 2em;
+    }
     }
 }
