@@ -1,13 +1,15 @@
-.navLink {
+.navheader {
     height: 50px;
     background-color: black;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    flex-wrap: wrap;
 
-    &_ul {
-        display: flex;
-        justify-content: space-around;
-        margin: 0 8px;
+    &_object {
+       width: 140px;
         
-        &-li {
+        &-title {
             height: 35px;
             width: 100%;
             background-color: black;
