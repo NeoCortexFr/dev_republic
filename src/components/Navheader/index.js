@@ -1,54 +1,32 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 
 import './navheader.scss';
 
 const Navheader = () => (
   <nav className="navheader">
-    <NavLink
-      className="navheader_object"
-      to="/"
-      exact
-    >
+
+    <div className="navheader_object">
       <h6 className="navheader_object-title">Accueil</h6>
-    </NavLink>
-    <NavLink
-      className="navheader_object"
-      to="/realisations"
-      exact
-    >
+    </div>
+    <div className="navheader_object">
       <h6 className="navheader_object-title">réalisations</h6>
-    </NavLink>
-    <NavLink
-      className="navheader_object"
-      to="/css"
-    >
+    </div>
+    <div className="navheader_object">
       <h6 className="navheader_object-title">Css</h6>
-    </NavLink>
-    <NavLink
-      className="navheader_object"
-      to="/tutorials"
-    >
+    </div>
+    <div className="navheader_object">
       <h6 className="navheader_object-title">Tutos</h6>
-    </NavLink>
-    <NavLink
-      className="navheader_object"
-      to="/vue-js"
-    >
+    </div>
+    <div className="navheader_object">
       <h6 className="navheader_object-title">Vue JS</h6>
-    </NavLink>
-    <NavLink
-      className="navheader_object"
-      to="/cv-bien-oui-merci"
-    >
+    </div>
+    <div className="navheader_object">
       <h6 className="navheader_object-title">Mon CV</h6>
-    </NavLink>
-    <NavLink
-      className="navheader_object"
-      to="/other"
-    >
+    </div>
+    <div className="navheader_object">
       <h6 className="navheader_object-title">Trucs en vrac</h6>
-    </NavLink>
+    </div>
   </nav>
 );
 

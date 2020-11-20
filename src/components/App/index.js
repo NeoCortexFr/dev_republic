@@ -1,11 +1,11 @@
 // == Import npm
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 // == Import
 import Header from 'src/components/Header';
 import Navheader from 'src/components/Navheader';
-import Main from 'src/components/Main';
+import Main from 'src/components/Home/Main';
 import Real from 'src/components/Home/Real';
 import Css from 'src/components/Home/Css';
 import Tutos from 'src/components/Home/Tutos';
@@ -21,30 +21,29 @@ const App = () => (
   <div className="app">
     <Header />
     <Navheader />
-    <Route
-      path="/"
-      exact
-    >
-      <Main />
-    </Route>
-    <Route path="/realisations">
-      <Real />
-    </Route>
-    <Route>
-      <Css />
-    </Route>
-    <Route>
-      <Tutos />
-    </Route>
-    <Route>
-      <Vuejs />
-    </Route>
-    <Route>
-      <Moncv />
-    </Route>
-    <Route>
-      <Others />
-    </Route>
+    <Switch>
+      <Route exact path="/">
+        <Main />
+      </Route>
+      <Route path="/realisations">
+        <Real />
+      </Route>
+      <Route path="/css">
+        <Css />
+      </Route>
+      <Route path="/mes-tutos">
+        <Tutos />
+      </Route>
+      <Route path="vue-js">
+        <Vuejs />
+      </Route>
+      <Route path="mon-cv">
+        <Moncv />
+      </Route>
+      <Route path="others">
+        <Others />
+      </Route>
+    </Switch>
     <Footer />
     <p className="app_p">Mentions Légales &copy; NeoCortex - 2020</p>
   </div>
