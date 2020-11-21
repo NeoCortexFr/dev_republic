@@ -30,4 +30,13 @@
             text-shadow: 8px 8px 2px blue;
         }
     }
+
+    &_button {
+        position: absolute;
+        right: 25px;
+        bottom: 12px;
+        font-size: 1.2rem;
+        color: white;
+        background-color: black;
+    }
 }
