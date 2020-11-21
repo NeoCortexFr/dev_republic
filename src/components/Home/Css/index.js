@@ -12,7 +12,7 @@ const Css = () => (
           <div className="gradient" />
           <div className="spotlight" />
         </div>
-        <a href="https://codepen.io/NeoCortexFr/pen/JjKQBeG">Lien Codepen.io</a>
+        <a href="https://codepen.io/NeoCortexFr/pen/JjKQBeG">Voir le code sur Codepen.io</a>
       </section>
     </div>
   </div>
