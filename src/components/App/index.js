@@ -13,10 +13,10 @@ import Footer from 'src/components/Footer';
 
 // == Import Composants page
 
+import Blog from 'src/components/Home/Blog';
 import Css from 'src/components/Home/Css';
 import Main from 'src/components/Home/Main';
 import Moncv from 'src/components/Home/Moncv';
-import Others from 'src/components/Home/Others';
 import Real from 'src/components/Home/Real';
 import Tutos from 'src/components/Home/Tutos';
 import Vuejs from 'src/components/Home/Vuejs';
@@ -40,7 +40,7 @@ const App = () => (
           <Route path="/tutos" component={Tutos} />
           <Route path="/vue-js" component={Vuejs} />
           <Route path="/cv-bien-oui-merci" component={Moncv} />
-          <Route path="/autres" component={Others} />
+          <Route path="/blog" component={Blog} />
           <Route render={() => <Error404 />} />
         </Switch>
       </main>

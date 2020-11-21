@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './css.scss';
+
 const Css = () => (
   <div className="css">
     <h2 className="css_h2">

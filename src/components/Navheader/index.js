@@ -25,7 +25,7 @@ const Navheader = () => (
         <Link to="/cv-bien-oui-merci">Mon CV</Link>
       </li>
       <li className="navheader_object-title">
-        <Link to="/autres">Autres</Link>
+        <Link to="/blog">Blog</Link>
       </li>
     </ul>
   </nav>

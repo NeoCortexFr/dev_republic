@@ -1,8 +1,7 @@
 .main {
 
     border-left: black solid 2px;
-    border-right: black solid 2px;
-    height: 100vh;
+    border-right: rgb(119, 119, 119) solid 2px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -15,10 +14,25 @@
         padding: 20px;
         background-color: black;
         color: white;
-
+    
     &-h {
       font-family: 'Goldman', cursive;
       font-size: 2em;
+
+      &-p {
+        text-align: left;
+        margin-top: 12px;
+        font-size: 1.2rem;
+
+        span {
+          text-decoration: line-through;
+        }
+      }
+      }
     }
+    
+
+    &-img {
+      padding-top: 50px;
     }
 }
