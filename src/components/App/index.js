@@ -12,7 +12,6 @@ import Navheader from 'src/components/Navheader';
 import Footer from 'src/components/Footer';
 
 // == Import Composants page
-
 import Blog from 'src/components/Home/Blog';
 import Css from 'src/components/Home/Css';
 import Main from 'src/components/Home/Main';
@@ -29,7 +28,6 @@ import './app.scss';
 const App = () => (
   <div className="app">
     <Header />
-
     <Router>
       <main>
         <Navheader />
