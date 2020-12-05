@@ -1,15 +1,13 @@
 .navheader {
     height: 50px;
     background-color: black;
-    
     margin: 0;
-    
 
     &_object {
       
        display: flex;
        justify-content: space-around;
-       flex-wrap: wrap;
+       flex-wrap: nowrap;
         &-title {
             height: 35px;
             width: 140px;

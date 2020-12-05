@@ -7,22 +7,21 @@ const Main = () => (
     <div className="main_p">
       <h2 className="main_p-h">Pourquoi le web ?</h2>
       <p className="main_p-h-p">
-        <p>Et surtout, Pourquoi le dév front....
-          Très simple ! J'ai suivi une formation 3dsmax au CGI Training d'Hornu.<br />
-          Et le visuel compte plus à mes yeux que les database.<br />
-          Bien sûr, c'est nécessaire, mais ce côté artistique à renforcé
-          mon envie de me tourner vers le Front.
-          Et on ajoute l'intéractivité, et me voilà du côté <span>obscur</span> front-end
-          du développement web.
-        </p>
-        <p>
-          Mes premières tentatives de dév web, pour mettre en ligne les images
-          produites par ce merveilleux (mais cher) logiciel, m'ont values des tests
-          avec un wysiwyg (what you see is what you get), qui donne un code quasi fonctionnel
-          mais tellement pas beau...
-          Puis vient le moment d'apprendre tout seul... qui n'a pas été une réussite.
-          J'ai fini par comprendre qu'il me fallait un mentor, ou tout du moins un guide.
-        </p>
+        Et surtout, Pourquoi le dév front....
+        Très simple ! J'ai suivi une formation 3dsmax au CGI Training d'Hornu.<br />
+        Et le visuel compte plus à mes yeux que les database.<br />
+        Bien sûr, c'est nécessaire, mais ce côté artistique à renforcé
+        mon envie de me tourner vers le Front.
+        Et on ajoute l'intéractivité, et me voilà du côté <span>obscur</span> front-end
+        du développement web.
+      </p>
+      <p>
+        Mes premières tentatives de dév web, pour mettre en ligne les images
+        produites par ce merveilleux (mais cher) logiciel, m'ont values des tests
+        avec un wysiwyg (what you see is what you get), qui donne un code quasi fonctionnel
+        mais tellement pas beau...
+        Puis vient le moment d'apprendre tout seul... qui n'a pas été une réussite.
+        J'ai fini par comprendre qu'il me fallait un mentor, ou tout du moins un guide.
       </p>
     </div>
     <div className="main_p">
