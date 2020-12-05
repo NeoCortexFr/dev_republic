@@ -92,6 +92,8 @@ const Tutos = () => (
           <button type="button" className="button">Bouton 4</button>
           <button type="button" className="button">Bouton 5</button>
         </div>
+      </p>
+      <p className="tutos_articles-flex-content">
         Bon, c'est pas ce qu'on voulait, mais au moins ça réagit ! Bonne nouvelle !
         Oui, il n'y a pas de petites victoires ! Continuons ensemble:
       </p>
@@ -173,7 +175,8 @@ const Tutos = () => (
         Et on voit bien le between entre chaque boutons.
       </p>
       <p className="tutos_articles-flex-content">
-        Comme Flexbox utilise tout l'espace, les boutons prennent la largeur.
+        Comme Flexbox utilise tout l'espace (inline-block par défaut),
+        les boutons prennent la largeur.
         Modifions ça ! Utilisons un width, avec 100px comme valeur (arbitraire...).
         Et un margin auto pour les centrer sur la page:
       </p>
